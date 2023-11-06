@@ -1,5 +1,13 @@
 # Apache JMeter Plugin For Apache Dubbo
 
+# ChangeLog
+Support dubbo 3.X, usage:
+1. Execute the command 'mvn clean package' at the directory level of pom.xml.
+2. You will obtain a result in the target directory, with a file name similar to jmeter-plugins-dubbo-3.1.10-jar-with-dependencies.jar.
+3. Next, you need to place it in the ${JMETER_HOME/lib}/ext directory.
+4. If you have previously placed a package named jmeter-plugins-dubbo-2.xxx, you should remove the old package.
+5. It should be compatible with old jmx (load testing scripts).
+
 # Introduce
 
 Dubbo Plugin for Apache JMeter, Its main purpose is to perform stress testing on the Dubbo interface visually in Jmeter. It is easy to use.
